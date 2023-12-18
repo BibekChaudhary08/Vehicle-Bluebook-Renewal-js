@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <div class="container">
+    <h3>Vehicle Blue Book Renewal</h3>
+    <label  class="one">Renewed Fee</label>
+  
+    <input type="number" id="Renewalfee" placeholder="Enter Renewed Fee"/><br>
+
+    <div id="radio">
+    <p class="two">Late Fee penalty</p><br>
+    <input type="radio" name="h" id="first" value="150">
+    <label>0-3 Months</label><br>
+    <input type="radio" name="h" id="" value="200">
+    <label>3-8 Months</label><br>
+    <input type="radio" name="h" id="third" value="300">
+    <label>6-9 Months</label><br>
+    <input type="radio" name="h" id="fourth" value="400">
+    <label>9-12 Months</label><br>
+    <input type="radio" name="h" id="fifth" value="500">
+    <label>Greater then 12 Months</label><br>
+  </div>
+  
+    <label  class="three">Late Fee</label>
+    <input type="number" id="latefee" disabled><br>
+  
+    <label  class="one">Insurance </label>
+    <input type="number" id="insurance" placeholder="Enter Insurance Charge"><br>
+  
+
+<label  class="one">Total Renewal Charge</label>
+<input type="number" id="totalcharge" disabled><br>
+<div class="btn1">
+<button id="btn"><span>Calculate</span></button>
+</div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
